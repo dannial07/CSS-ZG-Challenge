@@ -1,0 +1,63 @@
+@font-face {
+    src: url(./fonts/JuliusSansOne-Regular.ttf);
+    font-family: julius;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+
+}
+a:visited {
+
+}
+a:hover, a:focus {
+
+}
+h1 {
+    font-size: 3.2em;
+    text-transform: uppercase;
+    font-family: julius;
+    color: #fff;
+}
+h2 {   
+    display: block;
+    color: rgba(167, 68, 68, 0.6);
+    font-size: 1.6em;
+    font-style: italic; 
+}
+#jabarti-wrapper {
+    position: relative;
+}
+header {
+    background: #2d6360 30% 0 url(aljabartti@2x.png) no-repeat; /* old IE fallback */
+    text-align: center;
+}
+.preamble {
+    margin: 5%;
+}
+h3 {
+    font-family: julius;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+p {
+    width: 80%;
+    line-height: 2;
+}
+.main-supporting {
+    margin: 0 19% ;
+}
+footer {
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 3%, rgba(9,9,121,1) 19%, rgba(0,212,255,1) 65%);
+}
+abbr {
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.01em;
+}
